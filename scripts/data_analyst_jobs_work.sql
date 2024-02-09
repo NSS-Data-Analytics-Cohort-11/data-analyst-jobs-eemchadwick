@@ -101,3 +101,7 @@ FROM data_analyst_jobs
 GROUP BY domain, skill, days_since_posting
 HAVING skill LIKE '%SQL%' AND days_since_posting >21 AND domain IS NOT NULL
 ORDER BY COUNT(title) DESC;
+--answer: 
+--Banks & Financial Services - 6 jobs
+--Consulting and Business Services - 7 jobs
+--Consumer Goods and Services - 3 jobs
